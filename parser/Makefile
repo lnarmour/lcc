@@ -12,4 +12,4 @@ c99: lex.yy.c c99.tab.c c99.tab.h
 	gcc $(CFLAGS) -o $@ c99.tab.c lex.yy.c
 
 clean:
-	rm -rf c99 c99.tab.c lex.yy.c c99.tab.h
+	rm -rf c99 c99.tab.c lex.yy.c c99.tab.h *.o
