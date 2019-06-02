@@ -1,0 +1,6 @@
+parser/c99
+parser/c99.tab.c
+parser/c99.tab.h
+parser/*.o
+parser/lex.yy.c
+
